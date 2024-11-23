@@ -1,84 +1,53 @@
-body {
-    margin: 0px;
-    color: rgb(255, 0, 0);
-    background: rgb(53, 53, 53);
-    font-family:'Times New Roman', Times, serif;
-    margin-bottom: 100px;
-    text-align: center;
-}
+<!DOCTYPE html>
 
-header {
-    font-size: 50px;
-    text-align: center;
-    border-bottom: solid rgb(249, 253, 0);
-    padding: 5px;
-    width: 1550px;
-}
 
-div {
-    margin-right: 10%;
-}
+<html lang="pt-br">
 
-.Games {
-    padding: 10px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Programação</title>
+    <link rel="stylesheet" href="estilo.css" />
+</head>
 
-.lista_games {
-    display:flex;
-    justify-content: flex-start;
-    overflow-x: auto;
-    width: 1550px;
-}
+<body>
+    <header>Melhores Filmes de Videogames</header>
+    <section class="filme_1">
+        <div id="texto">
+            <h1>SONIC 3 - O FILME</h1>
+            <p>TRAILER COMPLETO:</p>
+        </div>
+        <div>
+            <a href="https://www.youtube.com/embed/TXPkr5HcvBs?si=ZJkWcctjqhdCAjO_">
+                <img id="video" src="https://img.youtube.com/vi/TXPkr5HcvBs/maxresdefault.jpg" />
+            </a>
+        </div>
+    </section>
+    <section class="filme_2">
+        <div id="texto">
+            <h2>SUPER MARIO BROS</h2>
+            <p>TRAILER COMPLETO:</p>
+        </div>
+        <div>
+            <a href="https://youtu.be/Cb4WV4aXBpk">
+                <img id="video" src="https://img.youtube.com/vi/Cb4WV4aXBpk/maxresdefault.jpg" />
+            </a>
+        </div>
+    </section>
+    <section class="Games">
+        <div>
+            <h3>Lista de Games</h3>
+        </div>
+        <div class="lista_games">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfi76j-E-_QLdsZZ9bmcJhIqQr3hOu2NeNdu7Y3r2i9SX4UMjM1LEGD7XT3GVPb2621bF0h5JDqukwfaAXIKTl5OGjPlC5G-23J0hbl1WAGs2BH4tqxIRLgtDD4l-yQKYdGyMrSNnqaDY/s1024/blast-from-the-past-sonic-the-hedgehog-30-anos.png" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAHrfDHZ5Mi5yRCH4-NFDCRm0m5bu6YYX1U_-YbmgNEgLqX1yy8IN3H7ztY4spaDZDGs4&usqp=CAU" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bmnG-P8cieDhC2fpc7Y9vBJ9ptIosdmcMi_gzfkBGGT3mT57pYb0qrs5nabBuVhx4sA&usqp=CAU" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThbjDoEO7wYQUMIxige1A1NXXezeCxACi8HkB5_2vDINFScZG1jWG205b7fS10o2HOh8Y&usqp=CAU" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8cij31VIVoMVK1uQ3pm9DaJaaLqNO7zMPmKoGxgO_jk-cf1x4bHdVYt8NERw22DnFcWg&usqp=CAU" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA3zd55EogKDvndn2oEjbvj3nZo9-5BbDO8w&s" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasr51w6_qWwb7zTszqpdjrYVVFIQzUhULKJ29Cf7UD6Abp5mARP8vtFlU9UI5LtuyofE&usqp=CAU" />
+        </div>
+    </section>
+</body>
 
-.filme_1, .filme_2 {
-    height: 325px;
-    background-color: rgb(45, 45, 145);
-    justify-content: center;
-    display:flex;
-    margin: 10px;
-}
-
-#video {
-    height: 315px;
-    width: 560px;
-    border: 5px, solid rgb(45, 45, 145);
-}
-
-#video:hover {
-    border: 5px, solid rgb(0, 0, 0);
-}
-
-#texto {
-    width: 40%;
-    font-size: 25px;
-    color: rgb(255, 30, 0);
-    border: 0px;
-}
-
-#texto h1, h2, h3 {
-    text-align: flex-start;
-    font-size: 40px;
-    border: 2px, solid black;
-}
-
-h3 {
-    text-align: center;
-    width: 1550px;
-    margin-top: 30px;
-}
-
-p {
-    border-bottom: solid black;
-}
-
-.Games img {
-    border: 5px, solid rgb(53, 53, 53);;
-    margin: 3px;
-    width: 300px;
-    opacity: 0.5;
-}
-
-.Games img:hover {
-    opacity: 1.0;
-    border: 5px, solid rgb(0, 255, 85);
-}
+</html>
