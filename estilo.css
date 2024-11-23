@@ -1,10 +1,10 @@
 body {
-    text-align: center;
     margin: 0px;
     color: rgb(255, 0, 0);
     background: rgb(53, 53, 53);
     font-family:'Times New Roman', Times, serif;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 header {
@@ -12,6 +12,7 @@ header {
     text-align: center;
     border-bottom: solid rgb(249, 253, 0);
     padding: 5px;
+    width: 1550px;
 }
 
 div {
@@ -34,8 +35,7 @@ div {
     background-color: rgb(45, 45, 145);
     justify-content: center;
     display:flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 #video {
